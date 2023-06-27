@@ -1,0 +1,103 @@
+body {
+    margin:0 auto;
+}
+
+#section {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: solid 1px black;
+}
+.heading {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+}
+
+#ans {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+}
+
+.button {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-primary,.btn-danger,.btn-success,.btn-warning {
+    margin: 10px 80px;
+    border-radius: 20px;
+}
+
+nav{
+    border: solid 1px black;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+}
+
+
+#cat img {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 10px 50px rgba(0,0,0,7);
+    margin-top: 10px;
+}
+
+.flex-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#section {
+    text-align: center;
+    border: solid 2px black;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.rps-flexbox-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rps-flexbox-div img:hover {
+    box-shadow: 0px 10px 50px  blue;
+}
+
+.rock-class {
+    display: none;
+}
+
+.paper-class {
+    display: none;
+}
+
+.scissor-class {
+    display :  none;
+}
+
+#message {
+    color: rgb(198, 40, 164);
+    font-size: 60px;
+}
+
+.message-r{
+    color: red;
+    font-size: 60px;
+}
+
+#message-g{
+    color: darkgreen;
+    font-size: 60px;
+}
+
+.form-select{
+    width: 10%;
+    display: inline-block;
+}
+
+

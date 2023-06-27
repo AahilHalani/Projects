@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #abc6ea, #34AD34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4,8rem);
+    grid-template-rows: repeat(4, 8rem);
+    grid-gap: 1rem;
+    perspective: 800px;
+}
+
+.card{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s ease;
+    box-shadow: rgba(0,0,0,0.2) 0 5px 15px;
+}
+
+.face,.back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.back{
+    background: white;
+    backface-visibility: hidden;
+}
+
+.toggle {
+    transform: rotateY(180deg);
+}
+
+.toggle_face {
+    transform: rotateY(180deg);
+}

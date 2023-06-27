@@ -1,0 +1,23 @@
+h1{
+    color:goldenrod;
+    font-size: 50px;
+}
+
+body{
+    background-image: url("images/table.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+button{
+    color: white;
+    background-color: goldenrod;
+    border-radius: 5px;
+    width: 170px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+}
